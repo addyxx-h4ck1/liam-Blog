@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ /* header */
+ .header-class{
+    height: 100vh;
+    background-image: url(https://images.pexels.com/photos/1464565/pexels-photo-1464565.jpeg?cs=srgb&dl=pexels-helena-lopes-1464565.jpg&fm=jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+ }
+ nav{
+    background-color: #2e0047;
+    position: sticky;
+    top: 0;
+
+ }
+ nav ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 2rem;
+ }
+ nav li{
+    height: 50px;
+ }
+ .logo span{
+    color: red;
+    font-size: 50px;
+ }
+ .logo a{
+   font-weight: 900;
+   font-size: 20px;
+   font-family: Impact;
+ }
+ nav a{
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+ } 
+ nav a:hover{
+    color: red;
+    transition: all .5s;
+ }
+ nav li:first-child{
+    margin-right: auto;
+ }
+ /* sidebar */
+ .sidebar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: rgba(248, 241, 241, 0.542);
+    backdrop-filter: blur(5px);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, .1);
+    display: none;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+ }
+ .sidebar li {
+    width: 100%; 
+ }
+ .sidebar li a {
+    width: 100%;
+ }
+.menuBar{
+    display: none;
+}
+ /* sidebar */
+
+ @media screen and (max-width: 800px){
+    .hideOnMobile{
+        display: none;
+    }
+    .menuBar{
+        display: block;
+    }
+ }
+ @media screen and (max-width: 400px){
+    .sidebar {
+        width: 100%;
+    }
+ }
+ /* header */
+/* top con */
+.header-content{
+    height: 94%;
+    background-color:rgba(0, 0, 0, 0.529);
+    display: flex;
+
+    text-align: center;
+    color: aliceblue;
+    flex-direction: column;
+ }
+ .header-content h1{
+    margin-top: 7rem;
+    font-size: 70px;
+ }
+ .header-content button{
+   padding: 15px 20px;
+   margin-top: 1rem;
+   font-size: 17px;
+   border: none;
+   outline: none;
+   border-radius: 5px;
+ }
+ .header-content button:hover{color: red; transition: all 1s;}
+ .header-content .red{
+  background-color: #2e0047;
+  color: aliceblue;
+ }
+ .header-content div{
+   display: flex;
+   width: 100%;
+   justify-content: center;
+   gap: 5rem;
+ }
+ .header-content .arrow-down{
+   font-size: 40px;
+   color: red;
+   margin-top: 3rem;
+   width: fit-content;
+   height:fit-content;
+   align-self: center;
+ }
+ @media screen and (max-width: 700px){
+   .header-content h1{
+      margin-top: 7rem;
+      font-size: 50px;
+   }
+ }
+@media screen and (max-width: 440px){
+   .header-content h1{
+      font-size: 40px;
+   }
+}
+/* top con */
