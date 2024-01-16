@@ -23,7 +23,6 @@
     list-style: none;
     display: flex;
     justify-content: flex-end;
-    padding-right: 2rem;
  }
  nav li{
     height: 50px;
@@ -62,8 +61,8 @@
     height: 100vh;
     width: 250px;
     z-index: 999;
-    background-color: #2e0047;
-    backdrop-filter: blur(5px);
+    background-color: #2e0047c5;
+    backdrop-filter: blur(10px);
     box-shadow: -10px 0 10px rgba(0, 0, 0, .1);
     display: none;
     flex-direction: column;
@@ -144,7 +143,7 @@
  }
 @media screen and (max-width: 440px){
    .header-content h1{
-      font-size: 40px;
+      font-size: 30px;
    }
 }
 /* top con */
