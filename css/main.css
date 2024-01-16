@@ -140,6 +140,15 @@
       margin-top: 7rem;
       font-size: 50px;
    }
+   .logo span{
+      color: red;
+      font-size: 20px;
+   }
+   .logo a{
+     font-weight: 900;
+     font-size: 15px;
+     font-family: Impact;
+   }
  }
 @media screen and (max-width: 440px){
    .header-content h1{
