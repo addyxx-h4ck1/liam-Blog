@@ -96,7 +96,7 @@
  /* header */
 /* top con */
 .header-content{
-    height: 94%;
+    height: 93%;
     background-color:rgba(0, 0, 0, 0.529);
     display: flex;
     text-align: center;
@@ -156,3 +156,153 @@
    }
 }
 /* top con */
+
+/* ==========ABOUT HERO============== */
+.about-block{
+
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin: 0 .5rem;
+   margin-top: 1rem;
+   margin-bottom: 1rem;
+}
+.about-author{
+   background-color: #a1a0a047;
+   max-width: 800px;
+   padding: 0 .5rem;
+   padding-bottom: 1rem;
+  
+}
+.about-author img{
+   width: 40%;
+}
+.about-author h2{
+   font-size: 40px;
+   margin-bottom: 1rem;
+}
+.about-author .col-1{
+   display: flex;
+   gap: 1rem;
+}
+.socials{
+   margin-top: 1rem;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+.socials .about-btn button{
+   padding: 15px 15px;
+   background-color: #2e0047;
+   color: white;
+   outline: none;
+   border: none;
+   border-radius: 5px;
+   font-size: 17px;
+}
+.socials .about-btn button:hover{
+   background-color: transparent;
+   color: red;
+   transition: all .5s;
+}
+.socials div a{
+   width: 50px;
+   height: 50px;
+   font-size: 30px;
+   margin-left: 1rem;
+}
+/* ============= */
+.fa-facebook{
+   color: blue;
+}
+.fa-whatsapp{
+   color: rgb(0, 255, 0);
+   
+}
+.fa-instagram{
+   color: red;
+
+}
+.fa-snapchat{
+   color: black;
+   background-color: rgb(255, 255, 5);
+   border-radius: 50%;
+
+}
+.about-block .pop-card{
+   display: flex;
+   margin-bottom: 1rem;
+   gap: 1rem;
+}
+.about-block .pop-card div{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+.about-block .pop-card div span{
+   color: #2e0047;
+   font-size: 15px;
+   font-weight: 800;
+}
+.about-block .pop-card img{
+   width: 150px;
+   height: 90px;
+   object-fit: cover;
+   display: block;
+}
+.pop-card a{
+   color: #2e0047;
+   font-size: 17px;
+   text-decoration: none;
+   font-weight: 400;
+}
+.pop-card a:hover{
+   color: red;
+   transition: all .5s;
+}
+.popular-posts{
+   background-color: #a1a0a047;
+   padding: 0 1rem;
+}
+.popular-posts h2{
+   margin: 1rem 0;
+   font-size: 30px;
+}
+
+.about-block-wrapper{
+   width: 100%;
+   max-width: 1500px;
+   display: flex;
+   justify-content: space-around;
+   gap: 2rem;
+}
+@media screen and (max-width: 800px){
+   .popular-posts{
+      display: none;
+   }
+   .about-author{
+      max-width: 100%;
+   }
+}
+@media screen and (max-width: 600px){
+   .col-1{
+      flex-direction: column;
+   }
+   .about-author img{
+      width: 100%;
+   }
+}
+@media screen  and (max-width: 450px){
+   .socials{
+      flex-direction: column-reverse;
+      gap: 1rem;
+   }
+   .about-author h2{
+      font-size: 25px;
+      margin-bottom: 1rem;
+      color: #2e0047;
+   }
+}
+/* ============= */
+/* ==========ABOUT HERO============== */
