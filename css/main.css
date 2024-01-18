@@ -394,6 +394,7 @@
 .post p{
    color: black;
    line-height: 1.5rem;
+   font-size: 15px;
 }
 .post p a{
    font-size: 15px;
@@ -406,6 +407,7 @@
    display: grid;
    grid-template-columns: repeat(auto-fill, 300px);
    justify-content: center;
+   align-items: center;
    gap: 1rem;
 }
 @media screen and (max-width: 650px){
@@ -416,11 +418,14 @@
 }
 @media screen and (max-width: 650px){
    .posts-sec{
-     grid-template-columns: 1fr;
-     
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
    }
    .post{
-      width: 100%;
+      width: 90%;
    }
+
 }
 /* ==========POSTS============== */
