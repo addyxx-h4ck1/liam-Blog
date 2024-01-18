@@ -159,7 +159,6 @@
 
 /* ==========ABOUT HERO============== */
 .about-block{
-
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -315,3 +314,113 @@
 }
 /* ============= */
 /* ==========ABOUT HERO============== */
+
+/* ==========POSTs============== */
+.post-block{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.filter-block{
+   max-width: 1500px;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.filter-block h2{
+   text-align: center;
+   font-size: 40px;
+   margin: 1rem 0;
+   padding-bottom: .5rem;
+   color: #2e0047;
+   border-bottom: 5px solid #2e0047;
+   width: fit-content;
+}
+.filter-block ul{
+   display: flex;
+   list-style: none;
+   justify-content: center;
+   align-items: flex-start;
+   gap: 1rem;
+   margin-bottom: 1rem;
+   flex-wrap: wrap;
+}
+.filter-block li{
+   padding: 15px 20px;
+   border: 1px solid black;
+   cursor: pointer;
+   font-size: 17px;
+   background-color: #2e0047;
+   color: white;
+}
+.filter-block li:hover{
+   background-color: transparent;
+   color: red;
+   border-color: #2e0047;
+   transition: all 1s;
+}
+.post{
+   display: flex;
+   flex-direction: column;
+   color: black;
+   width: 300px;
+   background-color: rgba(213, 216, 216, 0.454);
+   padding: .4rem;
+  padding-bottom: 1rem;
+}
+.post img{
+   width: 100%;
+}
+.post div{
+   display: flex;
+   justify-content: space-between;
+   margin-top: .4rem;
+}
+.post a{
+   color: #2e0047;
+   font-size: 19px;
+   padding: .2rem;
+   text-decoration: none;
+}
+.post a:hover{
+   color: red;
+   transition: all .5s;
+}
+.post div p{
+   color: #2e0047;
+}
+.post p{
+   color: black;
+   line-height: 1.5rem;
+}
+.post p a{
+   font-size: 15px;
+}
+.posts-sec{
+   margin: 0 1rem;
+   width: 100%;
+   max-width: 1500px;
+   margin-bottom: 1rem;
+   display: grid;
+   grid-template-columns: repeat(auto-fill, 300px);
+   justify-content: center;
+   gap: 1rem;
+}
+@media screen and (max-width: 650px){
+   .posts-sec{
+      grid-template-columns: repeat(auto-fill, 290px);
+     
+   }
+}
+@media screen and (max-width: 650px){
+   .posts-sec{
+     grid-template-columns: 1fr;
+     
+   }
+   .post{
+      width: 100%;
+   }
+}
+/* ==========POSTS============== */
