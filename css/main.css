@@ -12,10 +12,16 @@
     background-size: cover;
     background-attachment: fixed;
  }
+ header{
+   position: sticky;
+   top: 0;
+   z-index: 1000;
+ }
  nav{
     background-color: #2e0047;
     position: sticky;
     top: 0;
+    z-index: 1000;
 
  }
  nav ul {
@@ -543,10 +549,15 @@
 
 /* ========SIDEBAR */
 .aside{
-   background-color: #a1a0a047;
+   /* background-color: #a1a0a047; */
    padding: 1rem;
    margin-right: 1rem;
    margin-left: 1rem;
+   align-self: flex-start;
+}
+.recent-block{
+   background-color: #a1a0a047;
+   padding: 1rem;
 }
 .row-1-card{
    display: flex;
@@ -606,6 +617,84 @@
 @media screen and (max-width: 400px) {
    .row-1-card div a{
       font-size: 14px;
+   }
+}
+
+/* cat */
+.cat-block{
+   background-color: #a1a0a047;
+   padding: 1rem;
+   margin-top: 2rem;
+}
+.cat-block h2{
+   font-size: 30px;
+   color: #3b3b3b;
+   border-bottom: 2px solid black;
+   width: 70%;
+   text-align: left;
+}
+.cat-block ul{
+   list-style: none;
+   display: flex;
+   flex-wrap: wrap;
+   gap: 1rem;
+}
+.cat-block li{
+   padding: 10px 10px;
+   background-color: rgba(128, 128, 128, 0.698);
+   border-radius: 20px;
+}
+/* cat */
+/* arrchive */
+.archive-block{
+   margin-top: 2rem;
+   background-color: #a1a0a047;
+   padding: 1rem;
+}
+.archive-block h2{
+   margin-top: 2rem;
+   font-size: 30px;
+   color: #3b3b3b;
+   border-bottom: 2px solid black;
+   width: 70%;
+   text-align: left;
+}
+.archive-block ul{
+   margin-left: 1rem;
+   display: flex;
+   flex-wrap: wrap;
+   gap: 1rem;
+}
+.archive-block li{
+   padding: 10px 10px;
+   border-radius: 10px;
+}
+.archive-block li a{
+   text-decoration: none;
+   color: #2e0047;
+   font-size: 20px;
+}
+.archive-block li a:hover{
+   color: red;
+   transition: all 1s;
+}
+/* archive */
+@media screen and (max-width: 500px){
+   .archive-block li a{
+      text-decoration: none;
+      color: #2e0047;
+      font-size: 15px;
+   }
+   .archive-block{
+      margin-top: 2rem;
+      background-color: #a1a0a047;
+      padding: 1rem;
+   }
+   .aside{
+      /* background-color: #a1a0a047; */
+      padding: 0;
+      margin: 0 .4rem;
+      align-self: flex-start;
    }
 }
 /* ========SIDEBAR */
