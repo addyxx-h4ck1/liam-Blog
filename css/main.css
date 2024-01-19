@@ -456,7 +456,7 @@
    width: fit-content;
 }
 .popular-post{
-   max-width: 70%;
+   max-width: 60%;
    padding: 1rem;
    display: flex;
    flex-direction: column;
@@ -554,6 +554,7 @@
    margin-right: 1rem;
    margin-left: 1rem;
    align-self: flex-start;
+   width: 40%;
 }
 .recent-block{
    background-color: #a1a0a047;
@@ -612,6 +613,7 @@
    }
    .aside {
       margin: 0;
+      width: 100%;
    }
 }
 @media screen and (max-width: 400px) {
@@ -697,4 +699,61 @@
       align-self: flex-start;
    }
 }
+/* recent posts */
+.recent-block{
+   margin-top: 2rem;
+}
+.recent-post{
+   width: 100%;
+   height: 250px;
+   display: flex;
+   justify-content: flex-end;
+   align-items: flex-start;
+   flex-direction: column;
+   gap: 1.5rem;
+   padding: 2rem;
+   color: white;
+   background-color: #2e004783;
+}
+.recent-overlay{
+   width: 100%;
+   height: 250px;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   margin-bottom: 1rem;
+}
+.recent-post a button{
+   padding: 15px 20px;
+   font-size: 15px;
+   outline: none;
+   border: none;
+   border-radius: 5px;
+   background-color: red;
+   color: beige;
+   font-weight: 900;
+}
+.recent-post a button:hover{
+   background-color: #2e0047;
+   transition: all 1s ease-in-out;
+   color: red;
+}
+.recent-post p{
+   font-size: 19px;
+}
+/* recent posts */
+
+/* aside logo */
+.aside-logo{
+   text-align: center;
+   margin-top: 3rem;
+}
+.aside-logo h1 span {
+   color: red;
+   font-size: 70px;
+}
+.aside-logo h1 {
+   font-size: 40px;
+}
+/* aside logo */
 /* ========SIDEBAR */
