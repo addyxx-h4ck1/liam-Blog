@@ -1,0 +1,31 @@
+{
+    "newPosts" : [
+        {
+            "img" : "https://www.shutterstock.com/image-photo/happy-black-couple-love-hug-600nw-2213365867.jpg",
+
+            "text" : "140 questions to ask Your Boyfriend to know him Better",
+            
+            "link" : "/index.html",
+
+            "category" : "Love"
+        },
+        {
+            "img" : "https://img.freepik.com/premium-photo/i-cant-imagine-life-without-one-i-love-shot-affectionate-couple-spending-time-outdoors_590464-1889.jpg",
+
+            "text" : "140 questions to ask Your Boyfriend to know him Better",
+
+            "link" : "/index.html",
+
+            "category" : "Dating"
+        },
+        {
+            "img" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0ur8SWlEb0NH4Rrxlv9mIGmnErB4uXfM1d_BEVV7XKAJSQTE8YbbVI50-8zVl8xuB4Ag&usqp=CAU",
+
+            "text" : "140 questions to ask Your Boyfriend to know him Better",
+
+            "link" : "/index.html",
+
+            "category" : "Relationship"
+        }
+    ]
+}
