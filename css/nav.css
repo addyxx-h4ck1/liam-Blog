@@ -1,0 +1,108 @@
+/* header */
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  nav{
+     background-color: #2e0047;
+     position: sticky;
+     top: 0;
+     z-index: 1000;
+ 
+  }
+  nav ul {
+     width: 100%;
+     list-style: none;
+     display: flex;
+     justify-content: flex-end;
+  }
+  nav li{
+     height: 50px;
+  }
+  .logo span{
+     color: red;
+     font-size: 50px;
+  }
+  .logo a{
+    font-weight: 900;
+    font-size: 20px;
+    font-family: Impact;
+  }
+  nav a{
+     height: 100%;
+     padding: 0 30px;
+     text-decoration: none;
+     display: flex;
+     align-items: center;
+     color: white;
+     font-size: 20px;
+     font-weight: 400;
+  } 
+  nav a:hover{
+     color: red;
+     transition: all .5s;
+  }
+  nav li:first-child{
+     margin-right: auto;
+  }
+  /* sidebar */
+  .sidebar{
+     position: fixed;
+     top: 0;
+     right: 0;
+     height: 100vh;
+     width: 250px;
+     z-index: 999;
+     background-color: #2e0047c5;
+     backdrop-filter: blur(10px);
+     box-shadow: -10px 0 10px rgba(0, 0, 0, .1);
+     display: none;
+     flex-direction: column;
+     justify-content: flex-start;
+     align-items: flex-start;
+  }
+  .sidebar li {
+     width: 100%; 
+  }
+  .sidebar li a {
+     width: 100%;
+  }
+ .menuBar{
+     display: none;
+ }
+  /* sidebar */
+ 
+  @media screen and (max-width: 800px){
+     .hideOnMobile{
+         display: none;
+     }
+     .menuBar{
+         display: block;
+     }
+  }
+  @media screen and (max-width: 400px){
+     .sidebar {
+         width: 100%;
+     }
+  }
+ 
+  @media screen and (max-width: 700px){
+ 
+    .logo span{
+       color: red;
+       font-size: 20px;
+    }
+    .logo a{
+      font-weight: 900;
+      font-size: 15px;
+      font-family: Impact;
+    }
+  }
+ @media screen and (max-width: 440px){
+    .header-content h1{
+       font-size: 30px;
+    }
+ }
+  /* header */
+ /* ===================HEAER=============== */

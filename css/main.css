@@ -3,114 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
- /* header */
- header{
-   position: sticky;
-   top: 0;
-   z-index: 1000;
- }
- nav{
-    background-color: #2e0047;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-
- }
- nav ul {
-    width: 100%;
-    list-style: none;
-    display: flex;
-    justify-content: flex-end;
- }
- nav li{
-    height: 50px;
- }
- .logo span{
-    color: red;
-    font-size: 50px;
- }
- .logo a{
-   font-weight: 900;
-   font-size: 20px;
-   font-family: Impact;
- }
- nav a{
-    height: 100%;
-    padding: 0 30px;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    color: white;
-    font-size: 20px;
-    font-weight: 400;
- } 
- nav a:hover{
-    color: red;
-    transition: all .5s;
- }
- nav li:first-child{
-    margin-right: auto;
- }
- /* sidebar */
- .sidebar{
-    position: fixed;
-    top: 0;
-    right: 0;
-    height: 100vh;
-    width: 250px;
-    z-index: 999;
-    background-color: #2e0047c5;
-    backdrop-filter: blur(10px);
-    box-shadow: -10px 0 10px rgba(0, 0, 0, .1);
-    display: none;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
- }
- .sidebar li {
-    width: 100%; 
- }
- .sidebar li a {
-    width: 100%;
- }
-.menuBar{
-    display: none;
-}
- /* sidebar */
-
- @media screen and (max-width: 800px){
-    .hideOnMobile{
-        display: none;
-    }
-    .menuBar{
-        display: block;
-    }
- }
- @media screen and (max-width: 400px){
-    .sidebar {
-        width: 100%;
-    }
- }
-
- @media screen and (max-width: 700px){
-
-   .logo span{
-      color: red;
-      font-size: 20px;
-   }
-   .logo a{
-     font-weight: 900;
-     font-size: 15px;
-     font-family: Impact;
-   }
- }
-@media screen and (max-width: 440px){
-   .header-content h1{
-      font-size: 30px;
-   }
-}
- /* header */
-/* ===================HEAER=============== */
+ 
 .header-class{
    display: flex;
    flex-direction: column;
@@ -442,12 +335,13 @@
    flex-wrap: wrap;
 }
 .filter-block li{
-   padding: 15px 20px;
+   padding: 10px 15px;
    border: 1px solid black;
    cursor: pointer;
-   font-size: 17px;
+   font-size: 15px;
    background-color: #2e0047;
    color: white;
+   border-radius: 5px;
 }
 .filter-block li:hover{
    background-color: transparent;
@@ -459,13 +353,16 @@
    display: flex;
    flex-direction: column;
    color: black;
-   width: 300px;
+   width: 320px;
    background-color: rgba(213, 216, 216, 0.454);
-   padding: .4rem;
+   padding: .5rem;
   padding-bottom: 1rem;
+  
 }
 .post img{
    width: 100%;
+   height: 200px;
+   object-fit: cover;
 }
 .post div{
    display: flex;
@@ -474,9 +371,10 @@
 }
 .post a{
    color: #2e0047;
-   font-size: 19px;
+   font-size: 20px;
    padding: .2rem;
    text-decoration: none;
+   font-weight: 800;
 }
 .post a:hover{
    color: red;
@@ -494,15 +392,15 @@
    font-size: 15px;
 }
 .posts-sec{
-   margin: 0 1rem;
+   margin: 0 .5rem;
    width: 100%;
    max-width: 1500px;
    margin-bottom: 1rem;
    display: grid;
-   grid-template-columns: repeat(auto-fill, 300px);
+   grid-template-columns: repeat(auto-fill, 320px);
    justify-content: center;
    align-items: center;
-   gap: 1rem;
+   gap: .5rem;
 }
 @media screen and (max-width: 650px){
    .posts-sec{
@@ -518,7 +416,7 @@
      align-items: center;
    }
    .post{
-      width: 90%;
+      width: 95%;
    }
    .post p{
       line-height: 2rem;
