@@ -231,6 +231,9 @@ main{
     margin-top: 1rem;
     color: #2e0047;
     text-align: center;
+    font-size: 15px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 600;
  }
  .p-1 .quote{
     color: red;
