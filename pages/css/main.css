@@ -143,17 +143,16 @@ main{
 }
 .back-main-overlay{
     width: 100%;
-    height: 200px;
+    height: 300px;
     background-image: url(https://media.istockphoto.com/id/1365865879/photo/happy-face-at-the-beach.jpg?s=612x612&w=0&k=20&c=NOOEN-pgXsY2xYsGDUNV0xRdH11uxkIlk61oPodgvwY=);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
 }
 .back-main{
     width: 100%;
-    height: 200px;
-    background-color: rgba(0, 0, 0, 0.755);
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.577);
     display: flex;
     align-items: flex-end;
     padding: 2rem;
@@ -189,6 +188,11 @@ main{
     text-justify: newspaper;
     font-family: 'Roboto Slab', serif;
 }
+.article-1 p i{
+     margin-left: 3rem;
+     font-weight: 700;
+     color: #2e0047;
+}
 .p-1 strong{
     font-size: 22px;
     margin-left: 1rem;
@@ -223,6 +227,21 @@ main{
     font-size: 16px;
     font-family: 'Roboto Slab', serif;
     
+ }
+ .p-1 ol{
+   margin-left: 1rem;
+    line-height: 1rem;
+    text-align: justify;
+    text-justify: inter-word;
+    text-justify: newspaper;
+ }
+ .p-1 ol li{
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+    text-align: justify;
+    text-justify: inter-word;
+    text-justify: newspaper;
+    font-size: 15px;
  }
  .p-1 span{
     color: #2e0047;
@@ -415,10 +434,7 @@ footer a:hover{color: red;}
      }
      .back-main{
         width: 100%;
-        height: 200px;
-        background-color: rgba(0, 0, 0, 0.755);
-        display: flex;
-        align-items: flex-end;
+        height: 300px;
         padding: 1rem;
         padding-bottom: 3rem;
     }
