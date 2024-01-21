@@ -242,7 +242,7 @@ main{
   .conc {
     line-height: 2rem;
     margin: 1rem 0;
-    text-align: center;
+    text-align: left;
     text-align: justify;
     text-justify: inter-word;
     text-justify: newspaper;
