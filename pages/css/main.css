@@ -178,7 +178,14 @@ main{
 .article-1{
     line-height: 2rem;
     font-size: 17px;
-    padding: .5rem;
+    padding: .7rem;
+}
+.article-1 p{
+    line-height: 2rem;
+    font-size: 17px;
+    text-align: justify;
+    text-justify: inter-word;
+    text-justify: newspaper;
 }
 .p-1 strong{
     font-size: 22px;
@@ -207,6 +214,12 @@ main{
     margin-left: 1rem;
     line-height: 2rem;
     align-self: flex-start;
+    color: #2e0047;
+    text-align: justify;
+    text-justify: inter-word;
+    text-justify: newspaper;
+    font-size: 17px;
+    
  }
  .p-1 span{
     color: #2e0047;
@@ -221,9 +234,14 @@ main{
     font-size: 20px;
  }
   .conc {
-    line-height: 1.5rem;
+    line-height: 2rem;
     margin: 1rem 0;
     text-align: center;
+    text-align: justify;
+    text-justify: inter-word;
+    text-justify: newspaper;
+    border-top: 1px solid #2e0047;
+    border-bottom: 1px solid #2e0047;
  }
 /* col-1 */
 
@@ -314,11 +332,13 @@ footer{
 footer div{
     display: flex;
     gap: 1rem;
+
 }
 footer a{
     font-weight: 700;
     text-decoration: none;
     color: rgb(255, 103, 48);
+    font-size: 12px;
 }
 footer a:hover{color: red;}
 /* ==============================footer================ */
@@ -331,6 +351,14 @@ footer a:hover{color: red;}
     }
 }
  @media screen and (max-width: 700px){
+    .p-1 img{
+    display: block;
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    justify-content: center;
+    margin-bottom: 1rem;
+    }
     .main-wrapper{
         max-width: 1500px;
         display: flex;
@@ -338,8 +366,7 @@ footer a:hover{color: red;}
         gap: .5rem;
         max-height: 100%;
         overflow: hidden;
-        margin-left: .5rem;
-        margin-right: .5rem;
+        margin: 0;
     }
     .col-3-main{
         min-width: 30%;
@@ -369,6 +396,43 @@ footer a:hover{color: red;}
      }
      footer{
         display: flex;
+     }
+     .conc {
+        line-height: 2rem;
+        margin: 1rem 0;
+        text-align: left;
+        border-top: 1px solid #2e0047;
+        border-bottom: 1px solid #2e0047;
+        text-align: justify;
+        text-justify: inter-word;
+        text-justify: newspaper;
+     }
+     .back-main{
+        width: 100%;
+        height: 200px;
+        background-color: rgba(0, 0, 0, 0.755);
+        display: flex;
+        align-items: flex-end;
+        padding: 1rem;
+        padding-bottom: 3rem;
+    }
+    .back-main h1{
+        font-size: 20px;
+        color: rgb(255, 0, 0);
+        width: 90%;
+    }
+    .p-1 li{
+        margin-left: .5rem;
+        line-height: 2rem;
+        align-self: flex-start;
+        color: #2e0047;
+        text-align: justify;
+        text-justify: inter-word;
+        text-justify: newspaper;
+        font-size: 16px;
+     }
+     .article-1 p{
+        font-size: 16px;
      }
 }
 /* col-1 */
