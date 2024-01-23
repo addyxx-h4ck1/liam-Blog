@@ -428,6 +428,87 @@ html{
 }
 /* ==========POSTS============== */
 
+/* =============NEWSLETTER=================== */
+.newsletter{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   height: 300px;
+   background-image: url(https://www.opinionpoint.com.au/wp-content/uploads/2021/06/couple.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+}
+.newsletter-wrapper{
+   max-width: 1500px;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   gap: 1rem;
+   background-color: #2e0047c5;
+   height: 300px;
+   justify-content: center;
+   padding-left: 7rem;
+   padding-bottom: 2rem;
+}
+.newsletter-wrapper form input{
+   padding: 15px 15px;
+   outline: none;
+   border: none;
+   font-size: 16px;
+   font-family: 'Roboto Slab', serif;
+}
+.newsletter-wrapper form input:first-child{
+   padding: 15px 15px;
+   min-width: 35%;
+}
+.newsletter-wrapper form input:last-child{
+   background-color: #ff662e;
+   color: #2e0047;
+   font-weight: 700;
+}
+.newsletter-wrapper form input:focus{
+  border: 1px solid #ff662e;
+}
+.newsletter-wrapper div{
+   max-width: 600px;
+   line-height: 1.4rem;
+   font-family: 'Roboto Slab', serif;
+   color: #ffffff;
+   text-align: justify;
+    text-justify: inter-word;
+    text-justify: kashida;
+}
+.newsletter-wrapper h3{
+    color: #ff662e;
+   font-family: 'Roboto Slab', serif;
+   font-size: 30px;
+   font-weight: 900;
+}
+@media screen and (max-width: 900px){
+   .newsletter-wrapper{
+      height: fit-content;
+      padding: 2rem;
+   }
+   .newsletter{
+      height: fit-content;
+   }
+}
+@media screen and (max-width: 500px){
+   .newsletter-wrapper form input{
+      padding: 15px 15px;
+      outline: none;
+      border: none;
+      font-size: 16px;
+      font-family: 'Roboto Slab', serif;
+      width: 100%;
+      margin-bottom: 1rem;
+   }
+
+}
+/* =============NEWSLETTER=================== */
+
 /* ==========POLPULAR POST BLOCK============== */
 .popular-block{
    display: flex;
