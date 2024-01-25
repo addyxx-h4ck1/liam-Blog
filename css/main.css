@@ -17,7 +17,7 @@ html{
 .header-1{
    width: 100%;
    height: 400px;
-  background-color: #2e00478a;
+  background-color: #2e0047cd;
    display: flex;
    flex-direction: column;
    justify-content: space-between;
@@ -47,7 +47,7 @@ html{
 .head-overlay-1{
    width: 80%;
    height: 400px;
-   background-image: url(https://images.pexels.com/photos/1464565/pexels-photo-1464565.jpeg?cs=srgb&dl=pexels-helena-lopes-1464565.jpg&fm=jpg);
+   background-image: url(https://ygo-assets-websites-editorial-emea.yougov.net/images/GettyImages-470934368.original.jpg?pw=1200);
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
@@ -464,6 +464,17 @@ html{
    }
    .post p{
       line-height: 2rem;
+      font-size: 14px;
+   }
+   .post a{
+      color: #2e0047;
+      font-size: 15px;
+      padding: .2rem;
+      text-decoration: none;
+      font-weight: 800;
+   }
+   .post p a{
+      font-size: 14px;
    }
 }
 /* ==========POSTS============== */

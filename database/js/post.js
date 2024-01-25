@@ -18,7 +18,7 @@ const parent = document.querySelector('.posts-sec')
                 <a href="${post.link}">${post.text}
                 </a>
                 <p>
-                ${post.parag} <a href="${post.link}">Read More</a>
+                ${post.parag} <a href="${post.link}">Read Post</a>
                 </p>
                 <div>
                 <p><i class="fa fa-bars"></i> ${post.category}</p>
