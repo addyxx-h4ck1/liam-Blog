@@ -143,7 +143,7 @@ main{
 }
 .back-main-overlay{
     width: 100%;
-    height: 300px;
+    height: 200px;
     background-image: url(https://media.istockphoto.com/id/1365865879/photo/happy-face-at-the-beach.jpg?s=612x612&w=0&k=20&c=NOOEN-pgXsY2xYsGDUNV0xRdH11uxkIlk61oPodgvwY=);
     background-position: center;
     background-repeat: no-repeat;
@@ -151,15 +151,15 @@ main{
 }
 .back-main{
     width: 100%;
-    height: 300px;
-    background-color: rgba(0, 0, 0, 0.577);
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.779);
     display: flex;
     align-items: flex-end;
     padding: 2rem;
 }
 .back-main h1{
     font-size: 30px;
-    color: rgb(255, 0, 0);
+    color: white;
     width: 80%;
 }
 .col-2-main .top{
@@ -434,13 +434,12 @@ footer a:hover{color: red;}
      }
      .back-main{
         width: 100%;
-        height: 300px;
+       
         padding: 1rem;
         padding-bottom: 3rem;
     }
     .back-main h1{
-        font-size: 20px;
-        color: rgb(255, 0, 0);
+        font-size: 30px;
         width: 90%;
     }
     .p-1 li{
@@ -456,6 +455,12 @@ footer a:hover{color: red;}
      .article-1 p{
         font-size: 14px;
      }
+}
+@media screen and (max-width: 400px){
+    .back-main h1{
+        font-size: 25px;
+        width: 90%;
+    }
 }
 /* col-1 */
 
