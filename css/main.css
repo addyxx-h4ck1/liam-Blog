@@ -377,7 +377,7 @@ html{
    list-style: none;
    justify-content: center;
    align-items: flex-start;
-   gap: 1rem;
+   gap: .5rem;
    margin-bottom: 1rem;
    flex-wrap: wrap;
 }
@@ -478,6 +478,15 @@ html{
    }
    .post p a{
       font-size: 14px;
+   }
+   .filter-block li{
+      padding: 10px 10px;
+      border: 1px solid black;
+      cursor: pointer;
+      font-size: 14px;
+      background-color: #2e0047;
+      color: white;
+      border-radius: 5px;
    }
 }
 /* ==========POSTS============== */
