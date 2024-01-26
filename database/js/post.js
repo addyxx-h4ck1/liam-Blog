@@ -1,16 +1,14 @@
-
-const fetchdata = async () => {
-    const req = await fetch('database/posts.json');
-    const res = await req.json();
-    const arr = res.posts;
+//fetch posts
+fetch('database/posts.json')
+.then(res => {
+    return res.json();
+})
+.then(res => {
+    const parent = document.querySelector('.posts-sec')
+    const postsData = res.posts;
     
-    return arr;
-   
-}
-const parent = document.querySelector('.posts-sec')
- async function showPosts() {
-    const data =  await fetchdata();
-    let html = data.map(post => {
+    function displayPosts (arr) {
+      let html = arr.map(post => {
         return `<div class="post">
                 <img
                 src="${post.img}"
@@ -26,8 +24,109 @@ const parent = document.querySelector('.posts-sec')
                 </div>
             </div>`
     })
-    html = html.join("");
-    parent.innerHTML += html;
+    html = html.join("")
+    parent.innerHTML = html;
 }
+displayPosts(postsData)
 
-showPosts();
+    //////////////
+    const buttons = document.querySelectorAll('.filter-block li')
+    
+    buttons.forEach(link => {
+        link.addEventListener('click', (e) => {
+            const category = e.target.dataset.id;
+            const filterdPosts = postsData.filter(post => {
+                if(post.category === category){
+                    return post;
+                }
+            })
+            
+            ///Show Posts///
+            if(category === 'All'){
+                displayPosts(postsData)
+            }else{
+                displayPosts(filterdPosts)
+            }
+            link.style.backgroungColor = 'transparent'
+        })
+    })
+   
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// const fetchdata = async () => {
+//     const req = await fetch('database/posts.json');
+//     const res = await req.json();
+//     const arr = res.posts;
+    
+//     return arr;
+   
+// }
+// const parent = document.querySelector('.posts-sec')
+//  async function showPosts() {
+//     const data =  await fetchdata();
+//     let html = data.map(post => {
+//         return `<div class="post">
+//                 <img
+//                 src="${post.img}"
+//                 alt="">
+//                 <a href="${post.link}">${post.text}
+//                 </a>
+//                 <p>
+//                 ${post.parag} <a href="${post.link}">Read Post</a>
+//                 </p>
+//                 <div>
+//                 <p><i class="fa fa-bars"></i> ${post.category}</p>
+//                 <p><i class="fa fa-clock"></i> ${post.date}</p>
+//                 </div>
+//             </div>`
+//     })
+//     html = html.join("");
+//     parent.innerHTML += html;
+// }
+
+// showPosts();
