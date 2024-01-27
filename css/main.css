@@ -815,8 +815,9 @@ html{
 }
 .cat-block li{
    padding: 10px 10px;
-   background-color: rgba(128, 128, 128, 0.698);
+   background-color: rgba(128, 128, 128, 0.457);
    border-radius: 20px;
+   color: #2e0047c3;
 }
 /* cat */
 /* arrchive */
