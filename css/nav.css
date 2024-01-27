@@ -1,9 +1,5 @@
 /* header */
-header{
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-  }
+
   nav{
      background-color: #2e0047;
      position: sticky;

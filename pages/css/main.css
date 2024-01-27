@@ -98,8 +98,9 @@ main{
 }
 .col-1-main .categories ul li{
     padding: 10px 10px;
-    background-color: #62636356;
+    background-color: #6263633c;
     border-radius: 20px;
+    color: #2e0047cf;
 }
 .col-1-main .footer{
     position: relative;

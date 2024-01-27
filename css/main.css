@@ -24,7 +24,7 @@ html{
 }
 .header-1 button{
    cursor: auto;
-   width: 200px;
+   width: 100px;
    padding: 10px;
    outline: none;
    border: none;
@@ -33,7 +33,7 @@ html{
 }
 .header-1 a{
    padding: 3rem;
-   font-size: 40px;
+   font-size: 35px;
   color: #ffffff;
    text-decoration: none;
    font-weight: 600;
