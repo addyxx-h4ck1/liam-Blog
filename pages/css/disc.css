@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@350&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    position: sticky;
+    top: 0;
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.hero-wrapper{
+    height: fit-content;
+    width: 1000px;
+    background-color: rgba(157, 156, 156, 0.173);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.main-header{
+    width: 100%;
+    height: 200px;
+    background-image: url(https://www.sender.net/wp-content/uploads/2021/06/email_disclaimer_examples-1024x658.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.main-header-overlay{
+    height: 200px;
+    width: 100%;
+    background-color: #2e0047c2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-header-overlay h1{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+.main-header-overlay h1 span{
+    color: white;
+    font-size: 50px;
+    color: red;
+}
+article{
+    padding: 1rem;
+    text-align: justify;
+    text-justify: inter-word;
+    text-justify: newspaper;
+    font-size: 16px;
+    font-family: 'Roboto Slab', serif;
+    line-height: 2rem;
+}
+article strong{
+    font-size: 20px;
+    color: #2e0047;
+}
+article p{
+   margin-bottom: 1rem;
+}
+@media screen and (max-width: 1000px){
+    .hero-wrapper{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 500px){
+    article{
+        padding: 1rem;
+        text-align: justify;
+        text-justify: inter-word;
+        text-justify: newspaper;
+        font-size: 14px;
+        font-family: 'Roboto Slab', serif;
+        line-height: 2rem;
+    }
+}
