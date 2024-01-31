@@ -570,6 +570,21 @@ html{
    }
 
 }
+.newsletter-wrapper a button{
+   padding: 15px 15px;
+   margin-top: 1rem;
+   width: 150px;
+   background-color: #ff662e;
+   outline: none;
+   border: none;
+   color: #2e0047;
+   font-size: 16px;
+}
+.newsletter-wrapper a button:hover{
+   transition: all 1s ease-in-out;
+   color: black;
+   background-color: #ff662e94;
+}
 /* =============NEWSLETTER=================== */
 
 /* ==========POLPULAR POST BLOCK============== */
