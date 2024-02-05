@@ -1,14 +1,14 @@
 //fetch posts
 fetch('database/posts.json')
-.then(res => {
-    return res.json();
-})
-.then(res => {
+  .then((res) => {
+    return res.json()
+  })
+  .then((res) => {
     const parent = document.querySelector('.posts-sec')
-    const postsData = res.posts;
-    
-    function displayPosts (arr) {
-      let html = arr.map(post => {
+    const postsData = res.posts
+
+    function displayPosts(arr) {
+      let html = arr.map((post) => {
         return `<div class="post">
                 <img
                 src="${post.img}"
@@ -23,54 +23,37 @@ fetch('database/posts.json')
                 <p><i class="fa fa-clock"></i> ${post.date}</p>
                 </div>
             </div>`
-    })
-    html = html.join("")
-    parent.innerHTML = html;
-}
-displayPosts(postsData)
+      })
+      html = html.join('')
+      parent.innerHTML = html
+    }
+    displayPosts(postsData)
 
     //////////////
     const buttons = document.querySelectorAll('.filter-block li')
-    
-    buttons.forEach(link => {
-        link.addEventListener('click', (e) => {
-            const category = e.target.dataset.id;
-            const filterdPosts = postsData.filter(post => {
-                if(post.category === category){
-                    return post;
-                }
-            })
-            
-            ///Show Posts///
-            if(category === 'All'){
-                displayPosts(postsData)
-            }else{
-                displayPosts(filterdPosts)
-            }
-            link.style.backgroungColor = 'transparent'
+
+    buttons.forEach((link) => {
+      link.addEventListener('click', (e) => {
+        const category = e.target.dataset.id
+        const filterdPosts = postsData.filter((post) => {
+          if (post.category === category) {
+            return post
+          }
         })
+
+        ///Show Posts///
+        if (category === 'All') {
+          displayPosts(postsData)
+        } else {
+          displayPosts(filterdPosts)
+        }
+        link.style.backgroungColor = 'transparent'
+      })
     })
-   
-})
+  })
 
 ///////////////////////
 ///////////////////////
-// {
-//     "img": "https://cdn.shortpixel.ai/spai/w_924+q_lossy+ret_img+to_auto/thequeenmomma.com/wp-content/uploads/2021/04/texting-woman-YTB3E7Q-2048x1367.jpg",
-
-//     "link": "/pages/30 Flirting Techniques for Texting with Your Boyfriend.html",
-
-//     "text" : " 30 Flirting Techniques for Texting with Your Boyfriend",
-
-//     "parag" : "Flirting has always been an essential component of any romantic relationship, and in the digital age, mastering the art of texting can take.......",
-
-//     "date" : "Feb 5th 2024",
-
-//     "category" : "Dating"
-// },
-
-
-
 // {
 //     "img": "https://www.brides.com/thmb/0efxUo1O-eA11YG5S0u_nUnegqc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/wedding-planning-ultimate-guide-twitter-Janet-Lin-Photography-32e636bbd320476d8b343e2724a52509.jpg",
 

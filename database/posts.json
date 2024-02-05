@@ -1,57 +1,69 @@
 {
-    "posts" : [
-        {
-            "img": "https://www.liveabout.com/thmb/5kxNWIJVj_50nVF6WsxJtAUKbdI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-183104873-56a229fc5f9b58b7d0c760f3.jpg",
+  "posts": [
+    {
+      "img": "https://cdn.shortpixel.ai/spai/w_924+q_lossy+ret_img+to_auto/thequeenmomma.com/wp-content/uploads/2021/04/texting-woman-YTB3E7Q-2048x1367.jpg",
 
-            "link": "/pages/140 questions to ask Your Boyfriend to know him Better.html",
+      "link": "/pages/30 Flirting Techniques for Texting with Your Boyfriend.html",
 
-            "text" : "140 questions to ask Your Boyfriend to know him Better",
+      "text": " 30 Flirting Techniques for Texting with Your Boyfriend",
 
-            "parag" : "Enhance your connection and deepen your understanding with your boyfriend through this curated list of 200 thought-provoking questions.....",
+      "parag": "Flirting has always been an essential component of any romantic relationship, and in the digital age, mastering the art of texting can take.......",
 
-            "date" : "Jan 7th 2024",
+      "date": "Feb 5th 2024",
 
-            "category" : "Love"
-        },
-        {
-            "img": "https://media.istockphoto.com/id/1226501937/photo/couple-talking-by-video-conference.jpg?s=612x612&w=0&k=20&c=uQLX5P51guODwbNRXbHV3EqznLG2z0VE7lZ7pGyUyUA=",
+      "category": "Dating"
+    },
+    {
+      "img": "https://www.liveabout.com/thmb/5kxNWIJVj_50nVF6WsxJtAUKbdI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-183104873-56a229fc5f9b58b7d0c760f3.jpg",
 
-            "link": "/pages/40 Best Tips On Making A Long-Distance Relationship Work[STEP-BY-STEP GUIDE].html",
+      "link": "/pages/140 questions to ask Your Boyfriend to know him Better.html",
 
-            "text" : "40 Best Tips On Making A Long-Distance Relationship Work[STEP-BY-STEP GUIDE]",
+      "text": "140 questions to ask Your Boyfriend to know him Better",
 
-            "parag" : "Navigating the intricacies of a long-distance relationship requires a unique blend of commitment, communication......",
+      "parag": "Enhance your connection and deepen your understanding with your boyfriend through this curated list of 200 thought-provoking questions.....",
 
-            "date" : "Jan 15th 2024",
+      "date": "Jan 7th 2024",
 
-            "category" : "Relationship"
-        },
-        {
-            "img": "https://dy7glz37jgl0b.cloudfront.net/advice/images/a5873efd1998670e2004e8d0da992feb-man-maroon-shirt-pouting_l.jpeg",
+      "category": "Love"
+    },
+    {
+      "img": "https://media.istockphoto.com/id/1226501937/photo/couple-talking-by-video-conference.jpg?s=612x612&w=0&k=20&c=uQLX5P51guODwbNRXbHV3EqznLG2z0VE7lZ7pGyUyUA=",
 
-            "link": "/pages/Essential Relationship Advice for Men:30 TIPS YOU NEED TO KNOW.html",
+      "link": "/pages/40 Best Tips On Making A Long-Distance Relationship Work[STEP-BY-STEP GUIDE].html",
 
-            "text" : "Essential Relationship Advice for Men:30 TIPS YOU NEED TO KNOW.",
+      "text": "40 Best Tips On Making A Long-Distance Relationship Work[STEP-BY-STEP GUIDE]",
 
-            "parag" : "Embarking on the journey of love and connection, men often find themselves navigating the intricate landscape of relationships.....",
+      "parag": "Navigating the intricacies of a long-distance relationship requires a unique blend of commitment, communication......",
 
-            "date" : "Jan 19th 2024",
+      "date": "Jan 15th 2024",
 
-            "category" : "Relationship"
-        },
-        {
-            "img": "https://i0.wp.com/newsroundtheclock.com/wp-content/uploads/2023/09/long-distance-2-e1508796362437.jpg?fit=600%2C337&ssl=1",
+      "category": "Relationship"
+    },
+    {
+      "img": "https://dy7glz37jgl0b.cloudfront.net/advice/images/a5873efd1998670e2004e8d0da992feb-man-maroon-shirt-pouting_l.jpeg",
 
-            "link": "#popular-post",
+      "link": "/pages/Essential Relationship Advice for Men:30 TIPS YOU NEED TO KNOW.html",
 
-            "text" : " How to start a conversation with an unknown girl online:[ 7 BEST TACTICS]",
+      "text": "Essential Relationship Advice for Men:30 TIPS YOU NEED TO KNOW.",
 
-            "parag" : "In this guide, I will delve into the nuances of breaking the ice with an unknown girl online, offering seven tried-and-true......",
+      "parag": "Embarking on the journey of love and connection, men often find themselves navigating the intricate landscape of relationships.....",
 
-            "date" : "Jan 29th 2024",
+      "date": "Jan 19th 2024",
 
-            "category" : "Dating"
-        }
-       
-    ]
+      "category": "Relationship"
+    },
+    {
+      "img": "https://i0.wp.com/newsroundtheclock.com/wp-content/uploads/2023/09/long-distance-2-e1508796362437.jpg?fit=600%2C337&ssl=1",
+
+      "link": "#popular-post",
+
+      "text": " How to start a conversation with an unknown girl online:[ 7 BEST TACTICS]",
+
+      "parag": "In this guide, I will delve into the nuances of breaking the ice with an unknown girl online, offering seven tried-and-true......",
+
+      "date": "Jan 29th 2024",
+
+      "category": "Dating"
+    }
+  ]
 }

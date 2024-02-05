@@ -1,31 +1,35 @@
 {
-    "newPosts" : [
-        {
-            "img" : "https://www.shutterstock.com/image-photo/happy-black-couple-love-hug-600nw-2213365867.jpg",
+  "newPosts": [
+    {
+      "img": "https://cdn.shortpixel.ai/spai/w_924+q_lossy+ret_img+to_auto/thequeenmomma.com/wp-content/uploads/2021/04/texting-woman-YTB3E7Q-2048x1367.jpg",
 
-            "text" : "Essential Relationship Advice for Men:30 TIPS YOU NEED TO KNOW",
-            
-            "link" : "/pages/Essential Relationship Advice for Men:30 TIPS YOU NEED TO KNOW.html",
+      "link": "/pages/30 Flirting Techniques for Texting with Your Boyfriend.html",
 
-            "category" : "Relationship"
-        },
-        {
-            "img" : "https://img.freepik.com/premium-photo/i-cant-imagine-life-without-one-i-love-shot-affectionate-couple-spending-time-outdoors_590464-1889.jpg",
+      "text": " 30 Flirting Techniques for Texting with Your Boyfriend",
 
-            "text" : "140 questions to ask Your Boyfriend to know him Better",
+      "parag": "Flirting has always been an essential component of any romantic relationship, and in the digital age, mastering the art of texting can take.......",
 
-            "link" : "/pages/140 questions to ask Your Boyfriend to know him Better.html",
+      "date": "Feb 5th 2024",
 
-            "category" : "Love"
-        },
-        {
-            "img" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0ur8SWlEb0NH4Rrxlv9mIGmnErB4uXfM1d_BEVV7XKAJSQTE8YbbVI50-8zVl8xuB4Ag&usqp=CAU",
+      "category": "Dating"
+    },
+    {
+      "img": "https://www.shutterstock.com/image-photo/happy-black-couple-love-hug-600nw-2213365867.jpg",
 
-            "text" : "40 Best Tips On Making A Long-Distance Relationship Work[STEP-BY-STEP GUIDE]",
+      "text": "Essential Relationship Advice for Men:30 TIPS YOU NEED TO KNOW",
 
-            "link" : "/pages/40 Best Tips On Making A Long-Distance Relationship Work[STEP-BY-STEP GUIDE].html",
+      "link": "/pages/Essential Relationship Advice for Men:30 TIPS YOU NEED TO KNOW.html",
 
-            "category" : "Relationship"
-        }
-    ]
+      "category": "Relationship"
+    },
+    {
+      "img": "https://img.freepik.com/premium-photo/i-cant-imagine-life-without-one-i-love-shot-affectionate-couple-spending-time-outdoors_590464-1889.jpg",
+
+      "text": "140 questions to ask Your Boyfriend to know him Better",
+
+      "link": "/pages/140 questions to ask Your Boyfriend to know him Better.html",
+
+      "category": "Love"
+    }
+  ]
 }

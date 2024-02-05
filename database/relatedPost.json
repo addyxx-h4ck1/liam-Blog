@@ -1,22 +1,24 @@
 {
-    "relatedPosts" : [
-        {
-            "img" : "https://cdn.pixabay.com/photo/2014/09/07/16/53/couple-437968_1280.jpg",
-            "link" : "/pages/Essential Relationship Advice for Men:30 TIPS YOU NEED TO KNOW.html",
-            "text" : "Essential Relationship Advice for Men:30 TIPS YOU NEED TO KNOW"
-
-        },
-        {
-            "img" : "https://media.istockphoto.com/id/1447709403/photo/romantic-date.webp?b=1&s=170667a&w=0&k=20&c=rYes3lDelWEBdf53u1JaxG1_n21YCW5XF_o7atyg1tc=",
-            "link" : "/pages/140 questions to ask Your Boyfriend to know him Better.html",
-            "text" : "140 questions to ask Your Boyfriend to know him Better"
-        },
-        {
-            "img" : "https://media.istockphoto.com/id/1447709403/photo/romantic-date.webp?b=1&s=170667a&w=0&k=20&c=rYes3lDelWEBdf53u1JaxG1_n21YCW5XF_o7atyg1tc=",
-            "link" : "/pages/40 Best Tips On Making A Long-Distance Relationship Work[STEP-BY-STEP GUIDE].html",
-            "text" : "40 Best Tips On Making A Long-Distance Relationship Work[STEP-BY-STEP GUIDE]"
-        }
-        
-        
-    ]
+  "relatedPosts": [
+    {
+      "img": "https://ygo-assets-websites-editorial-emea.yougov.net/images/GettyImages-470934368.original.jpg?pw=1200",
+      "link": "/pages/How to start a conversation with an unknown girl online:[ 7 BEST TACTICS].html",
+      "text": "How to start a conversation with an unknown girl online:[ 7 BEST TACTICS]"
+    },
+    {
+      "img": "https://cdn.pixabay.com/photo/2014/09/07/16/53/couple-437968_1280.jpg",
+      "link": "/pages/Essential Relationship Advice for Men:30 TIPS YOU NEED TO KNOW.html",
+      "text": "Essential Relationship Advice for Men:30 TIPS YOU NEED TO KNOW"
+    },
+    {
+      "img": "https://media.istockphoto.com/id/1447709403/photo/romantic-date.webp?b=1&s=170667a&w=0&k=20&c=rYes3lDelWEBdf53u1JaxG1_n21YCW5XF_o7atyg1tc=",
+      "link": "/pages/140 questions to ask Your Boyfriend to know him Better.html",
+      "text": "140 questions to ask Your Boyfriend to know him Better"
+    },
+    {
+      "img": "https://media.istockphoto.com/id/1447709403/photo/romantic-date.webp?b=1&s=170667a&w=0&k=20&c=rYes3lDelWEBdf53u1JaxG1_n21YCW5XF_o7atyg1tc=",
+      "link": "/pages/40 Best Tips On Making A Long-Distance Relationship Work[STEP-BY-STEP GUIDE].html",
+      "text": "40 Best Tips On Making A Long-Distance Relationship Work[STEP-BY-STEP GUIDE]"
+    }
+  ]
 }

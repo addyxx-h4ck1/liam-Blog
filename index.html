@@ -1,125 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Lovelens</title>
-  <!-- css files -->
-  <link rel="stylesheet" href="/css/main.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-  <link rel="stylesheet" href="/css/nav.css">
-  <!-- <link rel="stylesheet" href="/css/slider.css"> -->
-  <!-- css files -->
-  <!-- js files -->
-  <script defer src="/js/main.js"></script>
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script defer src="/database/js/newPosts.js"></script>
-  <script defer src="/database/js/relatedPost.js"></script>
-  <script defer src="/database/js/morePost.js"></script>
-  <script defer src="/database/js/post.js"></script>
-  <!-- js files -->
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lovelens</title>
+    <!-- css files -->
+    <link rel="stylesheet" href="/css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/css/nav.css" />
+    <!-- <link rel="stylesheet" href="/css/slider.css"> -->
+    <!-- css files -->
+    <!-- js files -->
+    <script defer src="/js/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script defer src="/database/js/newPosts.js"></script>
+    <script defer src="/database/js/relatedPost.js"></script>
+    <script defer src="/database/js/morePost.js"></script>
+    <script defer src="/database/js/post.js"></script>
+    <!-- js files -->
+  </head>
 
-<body>
-  <!-- =============== -->
-  <!-- =============== -->
-  <header>
-    <nav>
-      <!-- sidebar -->
-      <ul class="sidebar">
-        <li onclick="hideSidebar()">
-          <a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24">
-              <path
-                d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
-            </svg></a>
-        </li>
-        <li><a href="#about">About</a></li>
-        <li><a href="/pages/diclaimer.html">Disclaimer</a></li>
-        <li><a href="#posts">Posts</a></li> 
-        <li><a href="/pages/subscribepage.html">Subscribe</a></li> 
-      </ul>
-      <!-- sidebar -->
-      <ul>
-        <li class="logo">
-          <a href="#">LOVE <span>&#10084;</span>LENS</a>
-        </li>
-        <li class="hideOnMobile"><a href="#about">About</a></li>
-        <li class="hideOnMobile"><a href="/pages/diclaimer.html">Disclaimer</a></li>
-        <li class="hideOnMobile"><a href="#posts">Posts</a></li> 
-        <li class="hideOnMobile"><a href="/pages/subscribepage.html" style="background-color: red; margin-right: 1rem; color: black;">Subscribe</a></li> 
-        <li onclick="showSidebar()" class="menuBar">
-          <a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24">
-              <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
-            </svg></a>
-        </li>
-      </ul>
-    </nav>
-  </header>
+  <body>
+    <!-- =============== -->
+    <!-- =============== -->
+    <header>
+      <nav>
+        <!-- sidebar -->
+        <ul class="sidebar">
+          <li onclick="hideSidebar()">
+            <a href="#"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="24"
+                viewBox="0 -960 960 960"
+                width="24"
+              >
+                <path
+                  d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"
+                /></svg
+            ></a>
+          </li>
+          <li><a href="#about">About</a></li>
+          <li><a href="/pages/diclaimer.html">Disclaimer</a></li>
+          <li><a href="#posts">Posts</a></li>
+          <li><a href="/pages/subscribepage.html">Subscribe</a></li>
+        </ul>
+        <!-- sidebar -->
+        <ul>
+          <li class="logo">
+            <a href="#">LOVE <span>&#10084;</span>LENS</a>
+          </li>
+          <li class="hideOnMobile"><a href="#about">About</a></li>
+          <li class="hideOnMobile">
+            <a href="/pages/diclaimer.html">Disclaimer</a>
+          </li>
+          <li class="hideOnMobile"><a href="#posts">Posts</a></li>
+          <li class="hideOnMobile">
+            <a
+              href="/pages/subscribepage.html"
+              style="background-color: red; margin-right: 1rem; color: black"
+              >Subscribe</a
+            >
+          </li>
+          <li onclick="showSidebar()" class="menuBar">
+            <a href="#"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="24"
+                viewBox="0 -960 960 960"
+                width="24"
+              >
+                <path
+                  d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"
+                /></svg
+            ></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-  <!-- =============== -->
-  <!-- =============== -->
-  <section class="header-class">
-    <div class="header-wrapper">
-      <!--  -->
-      <div class="head-overlay-1">
-        <div class="header-1">
-          <button>Popular</button>
-         
+    <!-- =============== -->
+    <!-- =============== -->
+    <section class="header-class">
+      <div class="header-wrapper">
+        <!--  -->
+        <div class="head-overlay-1">
+          <div class="header-1">
+            <button>Popular</button>
+          </div>
+        </div>
+        <!--  -->
+        <!--  -->
+        <div class="head-asidd">
+          <!--  -->
+          <div
+            class="head-overlay-2"
+            style="
+              background-image: url(https://www.lovepanky.com/wp-content/uploads/2021/05/how-to-flirt-with-a-guy-over-text-and-flirty-text-examples.jpg);
+            "
+          >
+            <div class="header-2">
+              <button>New Post</button>
+              <a href="#popular-post"
+                >30 Flirting Techniques for Texting with Your Boyfriend</a
+              >
+            </div>
+          </div>
+          <!--  -->
+          <!--  -->
+          <div
+            class="head-overlay-3"
+            style="
+              background-image: url(https://www.yourtango.com/sites/default/files/image_blog/how-to-flirt-with-a-guy-over-text.png);
+            "
+          >
+            <div class="header-3">
+              <button>Popular</button>
+              <a
+                href="/pages/Essential Relationship Advice for Men:30 TIPS YOU NEED TO KNOW.html"
+                >Essential Relationship Advice for Men:30 TIPS YOU NEED TO
+                KNOW</a
+              >
+            </div>
+          </div>
+          <!--  -->
+          <!--  -->
         </div>
       </div>
-     <!--  -->
-     <!--  -->
-     <div class="head-asidd">
-         <!--  -->
-      <div class="head-overlay-2">
-        <div class="header-2">
-          <button>Popular</button>
-          <a href="#popular-post">How to start a conversation with an unknown girl online:[ 7 BEST TACTICS]</a>
-        </div>
-      </div>
-     <!--  -->
-      <!--  -->
-      <div class="head-overlay-3">
-        <div class="header-3">
-          <button>Popular</button>
-          <a href="/pages/Essential Relationship Advice for Men:30 TIPS YOU NEED TO KNOW.html">Essential Relationship Advice for Men:30 TIPS YOU NEED TO KNOW</a>
-        </div>
-      </div>
-     <!--  -->
-     <!--  -->
-     </div>
-     
-    </div>
-  </section>
-  <!-- ============================ -->
-  <!-- 
+    </section>
+    <!-- ============================ -->
+    <!-- 
         Advice -->
-  <!-- ========HERO============= -->
-  <section class="about-block" id="about">
-    <div class="about-block-wrapper">
-      <div class="about-author">
-        <h2>
-          Hello there! Welcome to my little corner of the internet!
-        </h2>
-        <div class="col-1">
-          <img src="https://ik.imagekit.io/uimqpalyw/LIAM%20BLOG/image7.jpg?updatedAt=1705485131457" alt="" />
-          <div>
-          <p>
-            I'm Jonas, and I'm passionate about all things love and connection. As someone who believes in the beauty of
-            meaningful relationships, I've embarked on a journey to explore, learn, and share experiences that enrich
-            the tapestry of human connections.
-
-          </p>
-          <hr>
-          <p>
-            Welcome to Lovelensmelly. Before you dive into the content, please take a moment to read and understand the following disclaimers... <a href="/pages/diclaimer.html">Read</a>
-          </p>
-        </div>
-        </div>
-        <!-- <div class="socials">
+    <!-- ========HERO============= -->
+    <section class="about-block" id="about">
+      <div class="about-block-wrapper">
+        <div class="about-author">
+          <h2>Hello there! Welcome to my little corner of the internet!</h2>
+          <div class="col-1">
+            <img
+              src="https://ik.imagekit.io/uimqpalyw/LIAM%20BLOG/image7.jpg?updatedAt=1705485131457"
+              alt=""
+            />
+            <div>
+              <p>
+                I'm Jonas, and I'm passionate about all things love and
+                connection. As someone who believes in the beauty of meaningful
+                relationships, I've embarked on a journey to explore, learn, and
+                share experiences that enrich the tapestry of human connections.
+              </p>
+              <hr />
+              <p>
+                Welcome to Lovelensmelly. Before you dive into the content,
+                please take a moment to read and understand the following
+                disclaimers... <a href="/pages/diclaimer.html">Read</a>
+              </p>
+            </div>
+          </div>
+          <!-- <div class="socials">
           <div>
             <a href=""><i class="fa-brands fa-facebook"></i></a>
             <a href=""><i class="fa-brands fa-whatsapp"></i></a>
@@ -129,321 +173,373 @@
           </div>
           
         </div> -->
-      </div>
-      <!-- ====== -->
-      <div class="popular-posts">
-        <h2>New Posts</h2>
+        </div>
+        <!-- ====== -->
+        <div class="popular-posts">
+          <h2>New Posts</h2>
           <!-- dynamic content added -->
           <!-- dynamic content added -->
+        </div>
       </div>
-    </div>
-  </section>
-  <!-- ========HERO============= -->
-  <!-- =============POSTS========== -->
-  <section class="post-block" id="posts">
-    
-    <div class="filter-block">
-      <h2>Posts</h2>
-      <ul>
-        <li data-id="All">All</li>
-        <li data-id="Love">Love</li>
-        <li data-id="Dating">Dating</li>
-        <li data-id="Relationship">Relationship</li>
-        <li data-id="Planning">Planning</li>
-      </ul>
-    </div>
-    <div class="posts-sec">
+    </section>
+    <!-- ========HERO============= -->
+    <!-- =============POSTS========== -->
+    <section class="post-block" id="posts">
+      <div class="filter-block">
+        <h2>Posts</h2>
+        <ul>
+          <li data-id="All">All</li>
+          <li data-id="Love">Love</li>
+          <li data-id="Dating">Dating</li>
+          <li data-id="Relationship">Relationship</li>
+          <li data-id="Planning">Planning</li>
+        </ul>
+      </div>
+      <div class="posts-sec">
         <!-- dynamic added content -->
         <!-- dynamic added content -->
-    </div>
-  </section >
-  <!-- =============POSTS========== -->
-
-  <!-- =========NEWS LETTER========================== -->
-  <section class="newsletter"  id="news">
-    <div class="newsletter-wrapper">
-      <h3>Subscribe For A Better Experince !</h3>
-      <div>
-        <p>Never Miss a Love Update! Subscribe today!!!!. Get ready for a regular dose of heartfelt stories, relationship insights, and exclusive content delivered straight to your inbox. Join our community of love enthusiasts and ensure you're always in the know.</p>
-
-        <a href="/pages/subscribepage.html"><button>Subscribe</button></a>
       </div>
-      <!-- <form action="">
+    </section>
+    <!-- =============POSTS========== -->
+
+    <!-- =========NEWS LETTER========================== -->
+    <section class="newsletter" id="news">
+      <div class="newsletter-wrapper">
+        <h3>Subscribe For A Better Experince !</h3>
+        <div>
+          <p>
+            Never Miss a Love Update! Subscribe today!!!!. Get ready for a
+            regular dose of heartfelt stories, relationship insights, and
+            exclusive content delivered straight to your inbox. Join our
+            community of love enthusiasts and ensure you're always in the know.
+          </p>
+
+          <a href="/pages/subscribepage.html"><button>Subscribe</button></a>
+        </div>
+        <!-- <form action="">
         <input type="text" name="Newsletter-Email" id="name" placeholder="Full Name" required>
         <input type="email" name="Newsletter-Email" id="email" placeholder="Enter Email" required>
         <input type="submit" value="Subscribe">
       </form> -->
-    </div>
-  </section>
-
-  <!-- =========NEWS LETTER========================== -->
-  <!-- =========POPULAR POSTS============ -->
-  <section class="popular-block" id="popular-post">
-    <h2>Popular Posts</h2>
-    <div class="popular-wrapper">
-      <div class="popular-post">
-        <!-- === -->
-        <div class="profile">
-          <img
-            src="https://ik.imagekit.io/uimqpalyw/LIAM%20BLOG/image7.jpg?updatedAt=1705485131457"
-            alt="">
-          <div>
-            <p>By Liam Author</p>
-            <p>Jan 29th 2024</p>
-          </div>
-        </div>
-        <!-- === -->
-        <img
-          src="https://ygo-assets-websites-editorial-emea.yougov.net/images/GettyImages-470934368.original.jpg?pw=1200"
-          alt="">
-
-        <h2>Title: How to start a conversation with an unknown girl online:[ 7 BEST TACTICS]</h2>
-        <p class="post-intro">
-          In this guide, I will delve into the nuances of breaking the ice with an unknown girl online, offering seven
-          tried-and-true ways to initiate engaging and respectful interactions. From genuine compliments to
-          humor-infused introductions, each approach is designed to foster connection and set the stage for meaningful
-          conversations. Join me on a journey to discover the art of online communication, where authenticity,
-          curiosity, and a touch of humor become the keys to unlocking the doors of possibility in the world of online
-          relationships
-        </p>
-        <!-- points -->
-        <div class="p-1">
-          <strong>1. Be Genuine and Specific</strong>
-          <img
-            src="https://news.stanford.edu/wp-content/uploads/2019/08/dating_getty.jpg"
-            alt="">
-          <li>Start the conversation with a genuine and specific compliment. Avoid generic remarks and focus on
-            something unique or interesting you've noticed about her. This demonstrates that you're paying attention and
-            genuinely interested.
-          </li>
-
-          <p class="ex"> <span>Example</span> <i> <span class="quote">"</span>Hi [Her Name], I came across your profile
-              and couldn't help but notice your passion for [specific interest]. I find that fascinating. How did you
-              get into that?<span class="quote">"</span></i>
-          </p>
-        </div>
-
-        <!-- points -->
-        <!-- points -->
-        <div class="p-1">
-          <strong>2. Ask Open-Ended Questions:</strong>
-          <img
-            src="https://images.hindustantimes.com/tech/img/2022/02/12/960x540/woman-gab666acf2_1920_1644657744429_1644657759744.jpg"
-            alt="">
-          <li>Encourage a meaningful conversation by asking open-ended questions that go beyond simple yes or no
-            answers. This invites her to share more about herself and sets the tone for a deeper connection.
-          </li>
-
-          <p class="ex"> <span>Example</span> <i> <span class="quote">"</span>I'm always looking for new book
-              recommendations. What's the last book you read that you couldn't put down?<span class="quote">"</span></i>
-          </p>
-        </div>
-
-        <!-- points -->
-        <!-- points -->
-        <div class="p-1">
-          <strong>3. Share a Common Interest:</strong>
-          <img
-            src="https://media.istockphoto.com/id/623427218/photo/beautiful-girl-texting-in-cafe.jpg?s=612x612&w=0&k=20&c=s1PgP-8fEV06LVR1i_uOeyfgirrNYUMvtcUuDipED6o="
-            alt="">
-
-          <li>If you notice a shared interest in her profile, use it as a conversation starter. This immediately creates
-            a point of connection and gives you something to talk about.
-          </li>
-
-          <p class="ex"> <span>Example</span> <i> <span class="quote">"</span>I noticed you're a fan of [a specific band
-              or hobby]. I love them too! Have you seen them in concert?<span class="quote">"</span></i>
-          </p>
-        </div>
-
-        <!-- points -->
-        <!-- points -->
-        <div class="p-1">
-          <strong>4. Be Humorous:</strong>
-          <img
-            src="https://www.lovepanky.com/wp-content/uploads/2020/12/Dating-App-Terms.jpg"
-            alt="">
-          <li>Humor is a great icebreaker. Share a light-hearted joke or comment to break the initial tension and make
-            her feel more at ease.
-
-          </li>
-
-          <p class="ex"> <span>Example</span> <i> <span class="quote">"</span>I was scrolling through profiles, and your
-              smile caught my attention. It's contagious! What's the secret behind that fantastic grin of yours?<span
-                class="quote">"</span></i>
-          </p>
-        </div>
-
-        <!-- points -->
-        <!-- points -->
-        <div class="p-1">
-          <strong>5. Express Curiosity:
-          </strong>
-          <img
-            src="https://www.pewresearch.org/internet/wp-content/uploads/sites/9/2020/02/PI_2020.02.06_online-dating_FEATURED.png"
-            alt="">
-          <li>Show genuine curiosity about her life, experiences, or opinions. People appreciate when someone is
-            interested in getting to know them beyond the surface.
-
-
-          </li>
-
-          <p class="ex"> <span>Example</span> <i> <span class="quote">"</span>Your travel photos look amazing! If you
-              could visit any place in the world right now, where would it be and why?<span class="quote">"</span></i>
-          </p>
-        </div>
-
-        <!-- points -->
-        <!-- points -->
-        <div class="p-1">
-          <strong>6. Mention Shared Connections:
-          </strong>
-          <img
-            src="https://guardian.ng/wp-content/uploads/2020/02/online-dating.jpg"
-            alt="">
-          <li>If you have mutual friends or connections, mentioning them can create a sense of familiarity and trust.
-
-
-
-          </li>
-
-          <p class="ex"> <span>Example</span> <i> <span class="quote">"</span>Hey, I noticed we both know [mutual
-              friend]. Small world! How do you know them?<span class="quote">"</span></i>
-          </p>
-        </div>
-
-        <!-- points -->
-        <!-- points -->
-        <div class="p-1">
-          <strong>7. Respectful Introductions:
-          </strong>
-          <img
-            src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_492,h_480/https://www.zoosk.com/lov/wp-content/uploads/2021/03/Dating-Apps_Article-Image1-492x480.jpg"
-            alt="">
-          <li>Introduce yourself politely and avoid overly familiar language in the initial conversation. It's essential
-            to establish a respectful tone and make her feel comfortable.
-
-
-
-          </li>
-
-          <p class="ex"> <span>Example</span> <i> <span class="quote">"</span>Hi [Her Name], I'm [Your Name]. I came
-              across your profile and found it intriguing. I'd love to get to know you better. What's one thing you're
-              passionate about?<span class="quote">"</span></i>
-          </p>
-          <p class="conc">
-            Remember, the key is to be authentic, respectful, and genuinely interested in getting to know her. Tailor
-            your approach based on her profile, and be mindful of the tone of the conversation to ensure it is
-            comfortable for both parties.
-
-          </p>
-        </div>
-        <!-- points -->
       </div>
-      <!-- ========= -->
-      <!-- sidebar -->
-      <div class="aside">
-        <div class="row-1">
-          <!--  -->
-          <div class="recent-block">
-            <h2>Related Posts</h2>
+    </section>
+
+    <!-- =========NEWS LETTER========================== -->
+    <!-- =========POPULAR POSTS============ -->
+    <section class="popular-block" id="popular-post">
+      <h2>New Post</h2>
+      <div class="popular-wrapper">
+        <div class="popular-post">
+          <!-- === -->
+          <div class="profile">
+            <img
+              src="https://ik.imagekit.io/uimqpalyw/LIAM%20BLOG/image7.jpg?updatedAt=1705485131457"
+              alt=""
+            />
+            <div>
+              <p>By Liam Author</p>
+              <p>Feb 5th 2024</p>
+            </div>
+          </div>
+          <!-- === -->
+          <img
+            src="https://www.lovepanky.com/wp-content/uploads/2017/04/How-to-Tease-a-Girl-Over-Text.jpg"
+            alt=""
+          />
+
+          <h2>30 Flirting Techniques for Texting with Your Boyfriend</h2>
+          <p class="post-intro">
+            Flirting has always been an essential component of any romantic
+            relationship, and in the digital age, mastering the art of texting
+            can take your connection with your boyfriend to new heights. Whether
+            you're in a long-distance relationship or simply want to add a
+            playful spark to your daily conversations, these 30 flirting
+            techniques are designed to make your texts sizzle with passion and
+            excitement. Get ready to transform your mundane messages into a
+            delightful dance of words that will leave your boyfriend eagerly
+            anticipating your next text.
+          </p>
+          <!-- points -->
+          <div class="p-1">
+            <strong>1. Playful Teasing:</strong>
+            <img
+              src="https://www.lovepanky.com/wp-content/uploads/2015/07/Flirty-Texts-for-her.jpg"
+              alt=""
+            />
+            <li>
+              Start light-hearted banter by teasing your boyfriend in a playful
+              manner. A gentle, humorous jab can set the tone for a fun and
+              engaging conversation.
+            </li>
+
+            <!-- <p class="ex"> <span>Example</span> <i> <span class="quote">"</span>Hi [Her Name], I came across your
+                profile
+                and couldn't help but notice your passion for [specific interest]. I find that fascinating. How did you
+                get into that?<span class="quote">"</span></i>
+            </p> -->
+          </div>
+
+          <!-- points -->
+          <!-- points -->
+          <div class="p-1">
+            <strong>2. Compliment his Looks:</strong>
+            <img
+              src="https://parade.com/.image/t_share/MTkwNTgxMTU1MDU3NTc1MDM3/flirty-texts-for-him.jpg"
+              alt=""
+            />
+            <li>
+              Send a sweet and genuine compliment about your boyfriend's
+              appearance. It could be a specific detail you adore, like his
+              smile or the way he styles his hair.
+            </li>
+
+            <!-- <p class="ex"> <span>Example</span> <i> <span class="quote">"</span>I'm always looking for new book
+                recommendations. What's the last book you read that you couldn't put down?<span
+                  class="quote">"</span></i>
+            </p> -->
+          </div>
+
+          <!-- points -->
+          <!-- points -->
+          <div class="p-1">
+            <strong>3. Express Your Appreciation:</strong>
+            <img
+              src="https://www.ringcentral.com/us/en/blog/wp-content/uploads/2021/08/Using-a-phone-to-SMS-chat.jpg"
+              alt=""
+            />
+
+            <li>
+              Show gratitude for the little things he does. Acknowledge and
+              express your appreciation for his efforts, whether it's something
+              he did for you or a quality you admire.
+            </li>
+
+            <!-- <p class="ex"> <span>Example</span> <i> <span class="quote">"</span>I noticed you're a fan of [a specific
+                band
+                or hobby]. I love them too! Have you seen them in concert?<span class="quote">"</span></i>
+            </p> -->
+          </div>
+
+          <!-- points -->
+          <!-- points -->
+          <div class="p-1">
+            <strong>4. Use Emojis and GIFs:</strong>
+            <img
+              src="https://en-chatelaine.mblycdn.com/uploads/ench/2019/02/sexiest-emojis.jpg"
+              alt=""
+            />
+            <li>
+              Emojis and GIFs can add a layer of fun and emotion to your texts.
+              Use them creatively to convey your feelings, and let the visuals
+              enhance your flirtatious messages.
+            </li>
+
+            <!-- <p class="ex"> <span>Example</span> <i> <span class="quote">"</span>I was scrolling through profiles, and
+                your
+                smile caught my attention. It's contagious! What's the secret behind that fantastic grin of yours?<span
+                  class="quote">"</span></i>
+            </p> -->
+          </div>
+
+          <!-- points -->
+          <!-- points -->
+          <div class="p-1">
+            <strong>5. Create Inside Jokes: </strong>
+            <img
+              src="https://www.lovepanky.com/wp-content/uploads/2021/05/how-to-flirt-with-a-guy-over-text-and-flirty-text-examples.jpg"
+              alt=""
+            />
+            <li>
+              Develop shared jokes that are exclusive to your relationship.
+              Referencing these inside jokes will not only make your
+              conversations more intimate but also infuse them with a sense of
+              camaraderie.
+            </li>
+
+            <!-- <p class="ex"> <span>Example</span> <i> <span class="quote">"</span>Your travel photos look amazing! If you
+                could visit any place in the world right now, where would it be and why?<span class="quote">"</span></i>
+            </p> -->
+          </div>
+
+          <!-- points -->
+          <!-- points -->
+          <div class="p-1">
+            <strong>6. Send Flirty Memes:</strong>
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHWWC1GdCGkLt8Vk_pqsDkebAbO0PTPlY5toiO2EK5MH88Y75cPXy-d0ZrjEVSB2goVm8&usqp=CAU"
+              alt=""
+            />
+            <li>
+              Share light-hearted and flirty memes that reflect your sense of
+              humor. Memes can be a playful way to connect and convey your
+              feelings in a more casual manner.
+            </li>
+
+            <!-- <p class="ex"> <span>Example</span> <i> <span class="quote">"</span>Hey, I noticed we both know [mutual
+                friend]. Small world! How do you know them?<span class="quote">"</span></i>
+            </p> -->
+          </div>
+
+          <!-- points -->
+          <!-- points -->
+          <div class="p-1">
+            <strong>7. Initiate a Countdown: </strong>
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1UU1ierVOk20VftQsjbhRDbqBQY58zEY4YdVRhXGMQlXnNeBGFhNR_a1ItFnMOHcDCJg&usqp=CAU"
+              alt=""
+            />
+            <li>
+              Create anticipation by starting a countdown to a special event or
+              your next meeting. It could be a countdown to a date night, an
+              anniversary, or any exciting occasion.
+            </li>
+
+            <!-- <p class="ex"> <span>Example</span> <i> <span class="quote">"</span>Hey, I noticed we both know [mutual
+                friend]. Small world! How do you know them?<span class="quote">"</span></i>
+            </p> -->
+          </div>
+          <!-- ======READ MORE========== -->
+          <a
+            class="rd-mr-btn"
+            href="/pages/30 Flirting Techniques for Texting with Your Boyfriend.html"
+            ><button>Read More....</button></a
+          >
+          <!-- ======READ MORE========== -->
+          <!-- points -->
+        </div>
+        <!-- ========= -->
+        <!-- sidebar -->
+        <div class="aside">
+          <div class="row-1">
+            <!--  -->
+            <div class="recent-block">
+              <h2>Related Posts</h2>
               <!-- dynamic added conctent -->
               <!-- dynamic added conctent -->
-          </div>
-          <!--  -->
-          <!--  -->
-          <div class="cat-block">
-            <h2>Categories</h2>
-            <ul>
-              <li>Love</li>
-              <li>Dating</li>
-              <li>Relationship</li>
-              <li>Planning</li>
-            </ul>
-          </div>
-          <!--  -->
-          <!--  -->
-          <div class="archive-block">
-            <h2>Archives</h2>
-            <ul>
-              <li><a href="/pages/Essential Relationship Advice for Men:30 TIPS YOU NEED TO KNOW.html" target="_blank">Essential Relationship Advice for Men:30 TIPS YOU NEED TO KNOW</a></li>
+            </div>
+            <!--  -->
+            <!--  -->
+            <div class="cat-block">
+              <h2>Categories</h2>
+              <ul>
+                <li>Love</li>
+                <li>Dating</li>
+                <li>Relationship</li>
+                <li>Planning</li>
+              </ul>
+            </div>
+            <!--  -->
+            <!--  -->
+            <div class="archive-block">
+              <h2>Archives</h2>
+              <ul>
+                <li>
+                  <a
+                    href="/pages/Essential Relationship Advice for Men:30 TIPS YOU NEED TO KNOW.html"
+                    target="_blank"
+                    >Essential Relationship Advice for Men:30 TIPS YOU NEED TO
+                    KNOW</a
+                  >
+                </li>
 
-              <li><a href="/pages/140 questions to ask Your Boyfriend to know him Better.html">140 questions you can ask your boyfriend to know him better</a></li>
+                <li>
+                  <a
+                    href="/pages/140 questions to ask Your Boyfriend to know him Better.html"
+                    >140 questions you can ask your boyfriend to know him
+                    better</a
+                  >
+                </li>
 
-              <li><a href="/pages/40 Best Tips On Making A Long-Distance Relationship Work[STEP-BY-STEP GUIDE].html"> 40 Best Tips On Making A Long-Distance Relationship Work[STEP-BY-STEP GUIDE]</a></li>
+                <li>
+                  <a
+                    href="/pages/40 Best Tips On Making A Long-Distance Relationship Work[STEP-BY-STEP GUIDE].html"
+                  >
+                    40 Best Tips On Making A Long-Distance Relationship
+                    Work[STEP-BY-STEP GUIDE]</a
+                  >
+                </li>
 
-              <!-- <li><a href="/pages/30 Flirting Techniques for Texting with Your Boyfriend.html">30 Flirting Techniques for Texting with Your Boyfriend</a></li>
+                <li>
+                  <a
+                    href="/pages/How to start a conversation with an unknown girl online:[ 7 BEST TACTICS].html"
+                    >How to start a conversation with an unknown girl online:[ 7
+                    BEST TACTICS]</a
+                  >
+                </li>
 
-              <li><a href="/pages/A Comprehensive Guide: How to Become a Wedding Planner and Thrive in the Industry.html">A Comprehensive Guide: How to Become a Wedding Planner and Thrive in the Industry</a></li>
+                <!-- <li><a href="/pages/A Comprehensive Guide: How to Become a Wedding Planner and Thrive in the Industry.html">A Comprehensive Guide: How to Become a Wedding Planner and Thrive in the Industry</a></li>
 
               <li><a href="/pages/A Comprehensive Guide on How to Break Up with Your Girlfriend with Respect and Sensitivity.html">A Comprehensive Guide on How to Break Up with Your Girlfriend with Respect and Sensitivity</a></li>
 
-              <li><a href="/pages/20 Clever Ways to Melt Her Heart with Sweet Talk.html">20 Clever Ways to Melt Her Heart with Sweet Talk</a></li> -->
-             
-
-            </ul>
-          </div>
-          <!--  -->
-          <!-- RECENT POSTS -->
-          <div class="recent-block">
-            <h2>More Posts</h2>
-            <div class="recent-main-block">
-              <!-- dynamically added content -->
-              <!-- dynamically added content -->
+              <li><a href="/pages/20 Clever Ways to Melt Her Heart with Sweet Talk.html">20 Clever Ways to Melt Her Heart with Sweet Talk</a></li>  -->
+              </ul>
             </div>
+            <!--  -->
+            <!-- RECENT POSTS -->
+            <div class="recent-block">
+              <h2>More Posts</h2>
+              <div class="recent-main-block">
+                <!-- dynamically added content -->
+                <!-- dynamically added content -->
+              </div>
+            </div>
+            <!-- RECENT POSTS -->
           </div>
-          <!-- RECENT POSTS -->
         </div>
+        <!-- sidebar -->
       </div>
-      <!-- sidebar -->
-    </div>
-  </section>
-  <br>
-  <!-- =========NEWS LETTER========================== -->
-  <section class="newsletter"  id="news">
-    <div class="newsletter-wrapper">
-      <h3>Subscribe For A Better Experince !</h3>
-      <div>
-        <p>Never Miss a Love Update! Subscribe today!!!!. Get ready for a regular dose of heartfelt stories, relationship insights, and exclusive content delivered straight to your inbox. Join our community of love enthusiasts and ensure you're always in the know.</p>
+    </section>
+    <br />
+    <!-- =========NEWS LETTER========================== -->
+    <section class="newsletter" id="news">
+      <div class="newsletter-wrapper">
+        <h3>Subscribe For A Better Experince !</h3>
+        <div>
+          <p>
+            Never Miss a Love Update! Subscribe today!!!!. Get ready for a
+            regular dose of heartfelt stories, relationship insights, and
+            exclusive content delivered straight to your inbox. Join our
+            community of love enthusiasts and ensure you're always in the know.
+          </p>
 
-        <a href="/pages/subscribepage.html"><button>Subscribe</button></a>
-      </div>
-      <!-- <form action="">
+          <a href="/pages/subscribepage.html"><button>Subscribe</button></a>
+        </div>
+        <!-- <form action="">
         <input type="text" name="Newsletter-Email" id="name" placeholder="Full Name" required>
         <input type="email" name="Newsletter-Email" id="email" placeholder="Enter Email" required>
         <input type="submit" value="Subscribe">
       </form> -->
-    </div>
-  </section>
+      </div>
+    </section>
 
-  <!-- =========NEWS LETTER========================== -->
-  <!-- =========POPULAR POSTS============ -->
-  <!-- ======================Footer================ -->
-  <footer>
-    <div class="footer-wrapper">
-      <div class="f-1">
-        <h1>LOVE<span>&#10084;</span>LENS</h1>
-      </div>
-      <!--  -->
-      <div class="f-2">
-        <h2>Useful Links</h2>
-        <a href="#about">About</a>
-        <a href="#posts">Posts</a>
-        <a href="/">Home</a>
-        <a href="/pages/diclaimer.html">Disclaimer</a>
-      </div>
-      <!--  -->
-      <div class="f-3">
-        <h2>Categories</h2>
-        <ul>
-          <li>All</li>
-          <li>Love</li>
-          <li>Dating</li>
-          <li>Relationship</li>
-        </ul>
-      </div>
-      <!--  -->
-      <!-- <div class="f-4">
+    <!-- =========NEWS LETTER========================== -->
+    <!-- =========POPULAR POSTS============ -->
+    <!-- ======================Footer================ -->
+    <footer>
+      <div class="footer-wrapper">
+        <div class="f-1">
+          <h1>LOVE<span>&#10084;</span>LENS</h1>
+        </div>
+        <!--  -->
+        <div class="f-2">
+          <h2>Useful Links</h2>
+          <a href="#about">About</a>
+          <a href="#posts">Posts</a>
+          <a href="/">Home</a>
+          <a href="/pages/diclaimer.html">Disclaimer</a>
+        </div>
+        <!--  -->
+        <div class="f-3">
+          <h2>Categories</h2>
+          <ul>
+            <li>All</li>
+            <li>Love</li>
+            <li>Dating</li>
+            <li>Relationship</li>
+          </ul>
+        </div>
+        <!--  -->
+        <!-- <div class="f-4">
         <h2>Follow Me</h2>
         <div>
           <a href=""><i class="fa-brands fa-facebook"></i></a>
@@ -453,20 +549,27 @@
           <a href=""><i class="fa-brands fa-facebook"></i></a>
         </div>
       </div> -->
-    </div>
-    <div style="text-align: center; color: rgb(138, 138, 138); font-size: 13px; padding-bottom: 1rem;">
-      &copy; <script>
-        const date = new Date();
-        document.write(date.getFullYear());
-      </script> 
-      Lovelens.
-    </div>
-  </footer>
-  <!-- ======================Footer================ -->
-  <!-- AOS -->
-  <script>
-    AOS.init();
-  </script>
-</body>
-
+      </div>
+      <div
+        style="
+          text-align: center;
+          color: rgb(138, 138, 138);
+          font-size: 13px;
+          padding-bottom: 1rem;
+        "
+      >
+        &copy;
+        <script>
+          const date = new Date()
+          document.write(date.getFullYear())
+        </script>
+        Lovelens.
+      </div>
+    </footer>
+    <!-- ======================Footer================ -->
+    <!-- AOS -->
+    <script>
+      AOS.init()
+    </script>
+  </body>
 </html>
