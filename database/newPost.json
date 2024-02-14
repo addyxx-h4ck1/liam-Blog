@@ -1,6 +1,15 @@
 {
   "newPosts": [
     {
+      "img": "https://www.signupgenius.com/cms/images/home/wedding-planning-made-easy-refresh-article-600x400.jpg",
+
+      "text": "A Comprehensive Guide: How to Become a Wedding Planner and Thrive in the Industry",
+
+      "link": "/pages/A Comprehensive Guide: How to Become a Wedding Planner and Thrive in the Industry.html",
+
+      "category": "Love"
+    },
+    {
       "img": "https://cdn.shortpixel.ai/spai/w_924+q_lossy+ret_img+to_auto/thequeenmomma.com/wp-content/uploads/2021/04/texting-woman-YTB3E7Q-2048x1367.jpg",
 
       "link": "/pages/30 Flirting Techniques for Texting with Your Boyfriend.html",
@@ -21,15 +30,6 @@
       "link": "/pages/Essential Relationship Advice for Men:30 TIPS YOU NEED TO KNOW.html",
 
       "category": "Relationship"
-    },
-    {
-      "img": "https://img.freepik.com/premium-photo/i-cant-imagine-life-without-one-i-love-shot-affectionate-couple-spending-time-outdoors_590464-1889.jpg",
-
-      "text": "140 questions to ask Your Boyfriend to know him Better",
-
-      "link": "/pages/140 questions to ask Your Boyfriend to know him Better.html",
-
-      "category": "Love"
     }
   ]
 }

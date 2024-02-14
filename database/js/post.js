@@ -54,19 +54,6 @@ fetch('database/posts.json')
 
 ///////////////////////
 ///////////////////////
-// {
-//     "img": "https://www.brides.com/thmb/0efxUo1O-eA11YG5S0u_nUnegqc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/wedding-planning-ultimate-guide-twitter-Janet-Lin-Photography-32e636bbd320476d8b343e2724a52509.jpg",
-
-//     "link": "/pages/A Comprehensive Guide: How to Become a Wedding Planner and Thrive in the Industry.html",
-
-//     "text" : " A Comprehensive Guide: How to Become a Wedding Planner and Thrive in the Industry",
-
-//     "parag" : "The world of wedding planning is a dynamic and rewarding field that allows individuals to turn dreams into reality .......",
-
-//     "date" : "Feb 14th 2024",
-
-//     "category" : "Planning"
-// },
 
 // {
 //     "img": "https://bestlifeonline.com/wp-content/uploads/sites/3/2023/02/distressed-couple-on-couch-breakup.jpg?quality=82&strip=all",
